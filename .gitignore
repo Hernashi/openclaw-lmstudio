@@ -1,0 +1,25 @@
+﻿# Secrets and local credentials — never commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+auth-profiles.json
+
+# OpenClaw local state (machine-specific)
+.openclaw/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Logs and temp files
+*.log
+tmp/
+temp/
+
+# Dependencies
+node_modules/
