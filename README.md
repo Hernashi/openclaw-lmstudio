@@ -18,16 +18,21 @@ Run OpenClaw against a local LLM served by [LM Studio](https://lmstudio.ai), wit
 
 See [docs/setup.md](docs/setup.md) for the full step-by-step guide.
 
-## Cross-device access
+## Use on all your devices
 
-Cursor account sync keeps **settings and rules**, not project folders. To use this project on another machine:
+GitHub is the source of truth. On each new machine (once):
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/openclaw-lmstudio.git
-cd openclaw-lmstudio
+git clone https://github.com/Hernashi/openclaw-lmstudio.git
 ```
 
-Then open the folder in Cursor and continue setup on that machine.
+Then in Cursor: **File → Open Folder** → select the cloned folder.
+
+To get the latest changes on any device:
+
+```bash
+git pull
+```
 
 ## Security
 
